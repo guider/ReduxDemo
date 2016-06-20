@@ -21,6 +21,7 @@ export default class Counter extends Component {
   }
 
   render () {
+    // 从组件的props属性中导出 2个方法 和 一个变量
     const { counter, increment, decrement } = this.props
 
     return (
